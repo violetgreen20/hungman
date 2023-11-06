@@ -6,9 +6,7 @@ then
 	exit
 fi
 
-PLAYER_ADDRESS=$LEO_ADDRESS
-
-leo run create_game $PLAYER_ADDRESS "{ ch1: 0u8, ch2: 1u8, ch3: 2u8, ch4: 3u8, ch5: 4u8 }"
+leo run create_game aleo132ngrtqmlysat7d65nfjr3k56x6ww87gyyhavehplncyt9ytf58qatyxgn "{ ch1: 0u8, ch2: 1u8, ch3: 2u8, ch4: 3u8, ch5: 4u8 }"
 
 leo run make_guess "{
   owner: aleo10cz8yt9kwyqqvmwdt0hswdplvsc60eey8msxyh3yj8wqq5k5jq9suc7kw4.private,
