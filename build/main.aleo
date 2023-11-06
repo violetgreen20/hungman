@@ -1,4 +1,4 @@
-program snake.aleo;
+program hung.aleo;
 
 struct Word:
     ch1 as u8;
